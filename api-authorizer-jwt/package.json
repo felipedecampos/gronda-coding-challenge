@@ -1,0 +1,49 @@
+{
+  "name": "api-authorizer-jwt",
+  "version": "1.0.0",
+  "description": "Lambda Authorizer in NodeJS for JWT access tokens",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Tests must be implemented\" && exit 1",
+    "prettier": "prettier --write .",
+    "build": "./node_modules/.bin/tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/felipedecampos/gronda-coding-challenge"
+  },
+  "author": "Felipe de Campos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipedecampos/gronda-coding-challenge/issues"
+  },
+  "homepage": "https://github.com/felipedecampos/gronda-coding-challenge/tree/main/api-authorizer-jwt",
+  "dependencies": {
+    "aws-sdk": "~2.678.0",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "~8.10.34",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/node": "~12.12.17",
+    "@typescript-eslint/eslint-plugin": "~2.15.0",
+    "@typescript-eslint/parser": "~2.15.0",
+    "atob": "~2.1.2",
+    "aws-lambda": "~1.0.5",
+    "btoa": "~1.2.1",
+    "eslint": "~6.8.0",
+    "eslint-config-airbnb": "~18.0.1",
+    "eslint-config-airbnb-base": "~14.1.0",
+    "eslint-config-prettier": "~6.9.0",
+    "eslint-import-resolver-typescript": "~2.0.0",
+    "eslint-plugin-import": "~2.20.1",
+    "eslint-plugin-prettier": "~3.1.2",
+    "jest": "~24.9.0",
+    "jest-each": "~23.6",
+    "jest-image-snapshot": "~2.11.0",
+    "ntypescript": "~1.201706190042.1",
+    "prettier": "2.2.1",
+    "tsc": "~1.20150623.0",
+    "typescript": "~3.7.3"
+  }
+}

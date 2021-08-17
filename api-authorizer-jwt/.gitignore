@@ -1,0 +1,25 @@
+# packages
+node_modules/
+yarn.lock
+package-lock.json
+
+# build
+dist/
+dist-*/
+artifact.zip
+
+# test
+payload.json
+src/mocks/*
+!src/mocks/.gitkeep
+
+# environment
+.DS_Store
+.env.*
+!.env.ci
+*.pub.pem
+
+# IDEs
+.idea/
+.vscode/
+nbproject/
